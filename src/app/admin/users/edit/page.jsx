@@ -14,24 +14,18 @@ function AdminEditPage() {
               <hr className='my-3' />
               <h3 className='text-3xl'>Admin Edit User Data Page</h3>
               <form action="">
-                  <input type="text" name='username' className='w-[300px] block bg-gray-200 text-gray-400 border py-2 px-3 rounded text-lg my-2' 
-                        placeholder="Post title" value="Username" disabled
+                  <input type="text" className='w-[300px] block bg-gray-200 text-gray-400 border py-2 px-3 rounded text-lg my-2' 
+                          placeholder='Username' value="Username"
                   />
-                  <input type="email" name='email' className='w-[300px] block bg-gray-200 border py-2 px-3 rounded text-lg my-2' 
-                        placeholder="Email" value="Email before update" 
+                  <input type="email" className='w-[300px] block bg-gray-200 text-gray-400 border py-2 px-3 rounded text-lg my-2' 
+                          placeholder='Email' value="Email"
                   />
-                  <input type="password" name='password' className='w-[300px] block bg-gray-200 border py-2 px-3 rounded text-lg my-2' 
-                        placeholder="Password" value="$as3d215321a$3a2s1d532a1sd35" 
+                  
+                  <input type="password" className='w-[300px] block bg-gray-200 text-gray-400 border py-2 px-3 rounded text-lg my-2' 
+                          placeholder='Password' value="Password"
                   />
-                  <input type="password" name='confirm_password' className='w-[300px] block bg-gray-200 border py-2 px-3 rounded text-lg my-2' 
-                        placeholder="Password" value="$as3d215321a$3a2s1d532a1sd35" 
-                  />
-
-                <button type='submit' name='update' className='bg-green-500 text-white border py-2 px-3 rounded text-lg my-2'>
-                  Update Post
-                </button>
+                  <button type='submit' className='bg-green-500 text-white border py-2 px-3 rounded text-lg my-2'>Update User</button>
               </form>
-              
           </div>
         </div>
       <Footer />
